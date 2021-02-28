@@ -40,7 +40,7 @@ The extraction and transformation of the MovieLens ratings data using the ETL fu
 * The movies_with_ratings_df and the movies_df DataFrames are displayed in the Module_Work.ipynb file.  
 
 # Deliverable 4: Create the Movie Database
-[Movies](movies_with_ratings.ipynb)
+[Movies Database](movies_with_ratings.ipynb)
 
 The data from the movies_df DataFrame replaces the current data in the movies table in the SQL database 
 The data from the MovieLens rating CSV file is added to the ratings table in the SQL database 
