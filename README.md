@@ -9,7 +9,7 @@ The function converts the Kaggle metadata file to a Pandas DataFrame, and the Da
 The function converts the MovieLens ratings data file to a Pandas DataFrame, and the DataFrame is displayed in the ETL_function_test.ipynb file.
 
 # Deliverable 2: Extract and Transform the Wikipedia Data
-[wiki_data](https://github.com/pratishthasingh1/Movies-ETL/blob/master/ETL_clean_wiki_movies.ipynb) 
+[wiki_data](ETL_clean_wiki_movies.ipynb) 
 The TV shows are filtered out, and the wiki_movies_df DataFrame is created.
 A try-except block is used to catch errors while extracting the IMDb IDs with a regular expression and dropping duplicate IDs.
 The extraction and transformation of the Wikipedia data in the ETL function does the following:
@@ -21,7 +21,7 @@ The following columns are cleaned in the Wikipedia DataFrame: box office, budget
 The cleaned Wikipedia data is converted to a Pandas DataFrame, and the DataFrame is displayed in the ETL_clean_wiki_movies.ipynb file. 
 
 # Deliverable 3: Extract and Transform the Kaggle Data
-[kaggle](https://github.com/pratishthasingh1/Movies-ETL/blob/master/ETL_clean_kaggle_data.ipynb)
+[kaggle](ETL_clean_kaggle_data.ipynb)
 The extraction and transformation of the Kaggle metadata using the ETL function does the following:
 The Kaggle metadata is cleaned.
 The Wikipedia and Kaggle DataFrames are merged.
@@ -37,6 +37,6 @@ The extraction and transformation of the MovieLens ratings data using the ETL fu
 * The movies_with_ratings_df and the movies_df DataFrames are displayed in the Module_Work.ipynb file.  
 
 # Deliverable 4: Create the Movie Database
-![movies](module_work)
+[movies](movies_with_ratings.ipynb)
 The data from the movies_df DataFrame replaces the current data in the movies table in the SQL database 
 The data from the MovieLens rating CSV file is added to the ratings table in the SQL database 
