@@ -2,14 +2,14 @@
 Creating an automated pipeline that takes in new data, performs the necessary transformation on them, and then loads the modified data into existing tables. I was given 3 files, Wikipedia data, Kaggle metadata and MovieLens ratings data. I had to refactor the code given in this module, to then make 1 function that takes in these datasets to then perform the ETL process by adding the data to a PostgreSQL database. 
 
 # Deliverable 1: Write an ETL function to read three data files
-![ETLFunction](ETL_function_test.ipynb)
+[ETLFunction](ETL_function_test.ipynb)
 An ETL function is written to read in the three data files.
 The function converts the Wikipedia JSON file to a Pandas DataFrame, and the DataFrame is displayed in the ETL_function_test.ipynb file.
 The function converts the Kaggle metadata file to a Pandas DataFrame, and the DataFrame is displayed in the ETL_function_test.ipynb file.
 The function converts the MovieLens ratings data file to a Pandas DataFrame, and the DataFrame is displayed in the ETL_function_test.ipynb file.
 
 # Deliverable 2: Extract and Transform the Wikipedia Data
-![wiki_data](https://github.com/pratishthasingh1/Movies-ETL/blob/master/ETL_clean_wiki_movies.ipynb) 
+[wiki_data](https://github.com/pratishthasingh1/Movies-ETL/blob/master/ETL_clean_wiki_movies.ipynb) 
 The TV shows are filtered out, and the wiki_movies_df DataFrame is created.
 A try-except block is used to catch errors while extracting the IMDb IDs with a regular expression and dropping duplicate IDs.
 The extraction and transformation of the Wikipedia data in the ETL function does the following:
@@ -21,7 +21,7 @@ The following columns are cleaned in the Wikipedia DataFrame: box office, budget
 The cleaned Wikipedia data is converted to a Pandas DataFrame, and the DataFrame is displayed in the ETL_clean_wiki_movies.ipynb file. 
 
 # Deliverable 3: Extract and Transform the Kaggle Data
-![kaggle](https://github.com/pratishthasingh1/Movies-ETL/blob/master/ETL_clean_kaggle_data.ipynb)
+[kaggle](https://github.com/pratishthasingh1/Movies-ETL/blob/master/ETL_clean_kaggle_data.ipynb)
 The extraction and transformation of the Kaggle metadata using the ETL function does the following:
 The Kaggle metadata is cleaned.
 The Wikipedia and Kaggle DataFrames are merged.
