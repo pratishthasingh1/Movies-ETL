@@ -35,12 +35,12 @@ The following is performed on the merged Wikipedia and Kaggle DataFrames to crea
 * The movies_df DataFrame columns are renamed.
 The extraction and transformation of the MovieLens ratings data using the ETL function does the following:
 * The ratings counts are cleaned. 
-*The movies_df DataFrame is merged with the cleaned ratings DataFrame to create the movies_with_ratings_df DataFrame. 
+* The movies_df DataFrame is merged with the cleaned ratings DataFrame to create the movies_with_ratings_df DataFrame. 
 * The empty values in the movies_with_ratings_df DataFrame are filled with “0”. 
 * The movies_with_ratings_df and the movies_df DataFrames are displayed in the Module_Work.ipynb file.  
 
 # Deliverable 4: Create the Movie Database
 [Movies Database](movies_with_ratings.ipynb)
 
-The data from the movies_df DataFrame replaces the current data in the movies table in the SQL database 
-The data from the MovieLens rating CSV file is added to the ratings table in the SQL database 
+* The data from the movies_df DataFrame replaces the current data in the movies table in the SQL database 
+* The data from the MovieLens rating CSV file is added to the ratings table in the SQL database 
